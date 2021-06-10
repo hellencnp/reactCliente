@@ -125,17 +125,19 @@ export default function ClientesList() {
         <TableHead>
           <TableRow>
             <TableCell align="right">Cód.</TableCell>
-            <TableCell>nome</TableCell>
-            <TableCell>CPf</TableCell>
+            <TableCell>Nome</TableCell>
+            <TableCell>CPF</TableCell>
             <TableCell>RG</TableCell>
-            <TableCell>logradouro</TableCell>
-            <TableCell>numero</TableCell>
-            <TableCell>complemento</TableCell>
-            <TableCell>bairro</TableCell>
-            <TableCell>municipio</TableCell>
+            <TableCell>Logradouro</TableCell>
+            <TableCell>Numero</TableCell>
+            <TableCell>Complemento</TableCell>
+            <TableCell>Bairro</TableCell>
+            <TableCell>Municipio</TableCell>
             <TableCell>UF</TableCell>
-            <TableCell>telefone</TableCell>
-            <TableCell>email</TableCell>
+            <TableCell>Telefone</TableCell>
+            <TableCell>Email</TableCell>
+            <TableCell>Editar</TableCell>
+            <TableCell>Excluir</TableCell>
             
           </TableRow>
         </TableHead>

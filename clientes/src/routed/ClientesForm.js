@@ -300,7 +300,7 @@ export default function ClientesForm() {
         
         <TextField 
           id="nome" 
-          label="nome" 
+          label="Nome" 
           variant="filled"
           value={cliente.nome}
           onChange={handleInputChange}
@@ -319,7 +319,7 @@ export default function ClientesForm() {
           onChange={(event) => handleInputChange(event, 'cpf')}
         >
           {() => <TextField 
-            label="cpf" 
+            label="CPF" 
             variant="filled"
             required  /* not null, precisa ser preenchido */
             placeholder="Informe o cpf"
@@ -330,7 +330,7 @@ export default function ClientesForm() {
         </InputMask>
         <TextField 
           id="rg" 
-          label="rg" 
+          label="RG" 
           variant="filled"
           value={cliente.rg}
           onChange={handleInputChange}
@@ -342,7 +342,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="logradouro" 
-          label="logradouro" 
+          label="Logradouro" 
           variant="filled"
           value={cliente.logradouro}
           onChange={handleInputChange}
@@ -354,7 +354,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="num_imovel" 
-          label="num_imovel" 
+          label="Numero do imovel" 
           variant="filled"
           value={cliente.num_imovel}
           onChange={handleInputChange}
@@ -366,7 +366,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="complemento" 
-          label="complemento" 
+          label="Complemento" 
           variant="filled"
           value={cliente.complemento}
           onChange={handleInputChange}
@@ -378,7 +378,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="bairro" 
-          label="bairro" 
+          label="Bairro" 
           variant="filled"
           value={cliente.bairro}
           onChange={handleInputChange}
@@ -390,7 +390,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="municipio" 
-          label="municipio" 
+          label="Municipio" 
           variant="filled"
           value={cliente.municipio}
           onChange={handleInputChange}
@@ -402,7 +402,7 @@ export default function ClientesForm() {
         />
         <TextField 
           id="uf" 
-          label="uf" 
+          label="UF" 
           variant="filled"
           value={cliente.uf}
           onChange={handleInputChange}
@@ -421,7 +421,7 @@ export default function ClientesForm() {
           onChange={(event) => handleInputChange(event, 'telefone')}
         >
           {() => <TextField 
-            label="telefone" 
+            label="Telefone" 
             variant="filled"
             required  /* not null, precisa ser preenchido */
             placeholder="Informe o telefone"
@@ -432,7 +432,7 @@ export default function ClientesForm() {
         </InputMask>
         <TextField 
           id="email" 
-          label="email" 
+          label="Email" 
           variant="filled"
           value={cliente.email}
           onChange={handleInputChange}
